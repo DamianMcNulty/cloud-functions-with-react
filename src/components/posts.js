@@ -11,7 +11,7 @@ class Posts extends React.Component {
   }
   render() {
     var posts = this.props.Posts.get("posts").map(p => {
-      return <li><a href={p.get("perma_link")}>{p.get("title")}</a></li>;
+      return <li><a href={p.get("permalink")}>{p.get("title")}</a></li>;
     });
     return (
       <div style={{ padding: "20px" }}>
