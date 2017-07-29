@@ -1,4 +1,4 @@
-#Forked from https://github.com/odewahn/cloud-functions-with-react
+# Forked from https://github.com/odewahn/cloud-functions-with-react
 
 Using Cloud Functions as the backend for a React app which is deployed as a static website on Google Cloud Storage at https://storage.googleapis.com/damianmcnulty-posts/index.html.
 
@@ -68,7 +68,7 @@ return fetch(
 
 Once you're ready to deploy the React app, you can run `npm run build`, which will create a compiled, minified app in a `build` directory that is ready to publish as a static site.
 
-Host the build directory as a static site from Google Cloud Storage
+## Host the build directory as a static site from Google Cloud Storage
 
 ```
 gsutil mb gs://damianmcnulty-posts
