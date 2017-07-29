@@ -46,7 +46,7 @@ export function fetchPosts() {
   return (dispatch, getState) => {
     dispatch(setPostField("is_loading", true));
     return fetch(
-      "http://localhost:8010/react-gcloud-template/us-central1/posts",
+      "https://us-central1-damianmcnulty-java.cloudfunctions.net/posts",
       {
         method: "POST",
         body: JSON.stringify({
